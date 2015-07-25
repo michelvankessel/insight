@@ -57,9 +57,13 @@
               <span data-ng-show="!block.isMainChain" class="text-danger"> <span class="glyphicon glyphicon-warning-sign"></span> (Orphaned)</span>
             </td>
           </tr>
+		  <tr>
+             <td><strong>Block Type</strong></td>
+             <td class="text-right text-muted">{{block.nonce > 0 && 'PoW' || 'PoS'}}</td>
+           </tr> 
           <tr>
             <td><strong translate>Block Reward</strong></td>
-            <td class="text-right text-muted">{{$root.currency.getConvertion(block.reward) || block.reward + ' BTC'}}</td>
+            <td class="text-right text-muted">{{$root.currency.getConvertion(block.mint) || block.mint + ' BLK'}}</td>
           </tr> 
           <tr>
             <td><strong translate>Timestamp</strong></td>
