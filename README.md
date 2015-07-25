@@ -32,7 +32,7 @@ Check some screenshots and more details at [insight's project homepage](http://i
     
   Then open a browser and go to:
 
-    http://localhost:3001
+    http://localhost:3000
 
   If *insight* reports problems connecting to **bitcoind** please check the CONFIGURATION section of 
   [insight-api README](https://github.com/bitpay/insight-api/blob/master/README.md). To set the 
