@@ -19,7 +19,7 @@ Check some screenshots and more details at [insight's project homepage](http://i
 
   To install Insight, clone the main repository:
 
-    $ git clone https://github.com/bitpay/insight.git && cd insight
+    $ git clone -b blacksight https://github.com/janko33bd/insight.git && cd insight
 
   Install dependencies:
 
