@@ -36,12 +36,12 @@ Check some screenshots and more details at [insight's project homepage](http://i
     $ chmod u+x start.sh
 	$ ./start.sh
     
-  Then open a browser and go to:
+  start.sh sets enviroment variables so the insight can conncect to blackcoind. Then open a browser and go to:
 
     http://localhost:3000
 
-  If *insight* reports problems connecting to **bitcoind** please check the CONFIGURATION section of 
-  [insight-api README](https://github.com/bitpay/insight-api/blob/master/README.md). To set the 
+  If *insight* reports problems connecting to **bitcoind** please check the CONFIGURATION (change start.sh) 
+  section of [insight-api README](https://github.com/bitpay/insight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
