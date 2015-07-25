@@ -27,7 +27,8 @@ Check some screenshots and more details at [insight's project homepage](http://i
     
   Run the main application:
 
-    $ npm start
+    $ chmod u+x start.sh
+	$ ./start.sh
     
   Then open a browser and go to:
 
