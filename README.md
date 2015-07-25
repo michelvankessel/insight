@@ -1,3 +1,6 @@
+donations:
+BALbH9XBDtQjz11rmUsUnoj3kjwZAc3bg3
+
 Screenshoot
 http://i.imgur.com/ylnqrlZ.png
 
