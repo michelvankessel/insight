@@ -61,6 +61,28 @@
 
       <div class="col-xs-12 col-md-4 col-gray">
         <h2 translate>About</h2>
+		<li>
+      <div class="status" data-ng-controller="StatusController">
+        <div data-ng-init="getSync()" class="pull-left">
+          <span class="t text-danger"  data-ng-show="sync.error" tooltip="{{sync.error}}" tooltip-placement="bottom"> 
+              <span  class="glyphicon glyphicon-warning-sign"></span>
+              ERROR 
+          </span>
+          <span class="t" tooltip="{{sync.syncedBlocks}} / {{sync.blockChainHeight}} synced. {{sync.skippedBlocks || 0}} skipped" tooltip-placement="bottom" data-ng-show="sync.status==='syncing'"> 
+            <span  class="glyphicon glyphicon-refresh icon-rotate"></span>
+            {{sync.syncPercentage}}%
+          </span>
+          <span class="glyphicon glyphicon-ok" tooltip="Historic sync finished" tooltip-placement="bottom" data-ng-show="sync.status==='finished'"> </span>
+        </div>
+        &nbsp; &middot;
+        <span data-ng-init="getStatus('Info')">
+          <strong>{{'Conn'|translate}}</strong> {{info.connections}}
+        </span> &middot;
+        <strong>{{'Height'|translate}}</strong> {{totalBlocks || info.blocks}}
+		&middot;
+        <strong>Supply</strong> {{info.moneysupply}} BLK
+      </div>
+      </li>
 		<p translate><strong>Donate:</strong> BALbH9XBDtQjz11rmUsUnoj3kjwZAc3bg3</p>
         <p translate><strong>Blacksight</strong>  is an open-source blockchain explorer based on <a href="https://insight.is/" target="_blank">insight</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by blackcoind RPC.  Check out the <a href="http://github.com/janko33bd/insight" target="_blank">source code</a>.</p>
         <p translate><strong>Blacksight</strong> is still in development.</p>
