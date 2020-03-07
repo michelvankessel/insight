@@ -1,0 +1,79 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - insight-bitcore-api > bitcore > coveralls > request > hawk > hoek:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > coveralls > request > hawk > boom > hoek:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > coveralls > request > hawk > sntp > hoek:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:marked:20140131-1':
+    - insight-bitcore-api > bitcore > grunt-markdown > marked:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:mime:20170907':
+    - insight-bitcore-api > express > send > mime:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > express > connect > send > mime:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:minimatch:20160620':
+    - insight-bitcore-api > bitcore > browserify > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-browserify > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > istanbul > fileset > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-browserify > watchify > browserify > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-contrib-watch > gaze > globule > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-mocha-test > mocha > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-contrib-watch > gaze > globule > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > istanbul > fileset > minimatch:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:moment:20160126':
+    - insight-bitcore-api > moment:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:negotiator:20160616':
+    - insight-bitcore-api > express > connect > negotiator:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:qs:20140806-1':
+    - insight-bitcore-api > bitcore > grunt-contrib-watch > tiny-lr > qs:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > express > connect > qs:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:tunnel-agent:20170305':
+    - insight-bitcore-api > bitcore > coveralls > request > tunnel-agent:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:uglify-js:20151024':
+    - insight-bitcore-api > bitcore > browserify > umd > ruglify > uglify-js:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-browserify > watchify > browserify > umd > ruglify > uglify-js:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > istanbul > handlebars > uglify-js:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > browserify > umd > uglify-js:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > bitcore > grunt-browserify > watchify > browserify > umd > uglify-js:
+        patched: '2020-03-07T18:10:04.377Z'
+  'npm:ws:20160920':
+    - insight-bitcore-api > socket.io > engine.io > ws:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > socket.io-client > engine.io-client > ws:
+        patched: '2020-03-07T18:10:04.377Z'
+    - insight-bitcore-api > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2020-03-07T18:10:04.377Z'
