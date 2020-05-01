@@ -77,3 +77,8 @@ patch:
         patched: '2020-03-07T18:10:04.377Z'
     - insight-bitcore-api > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2020-03-07T18:10:04.377Z'
+  SNYK-JS-LODASH-567746:
+    - insight-bitcore-api > winston > async > lodash:
+        patched: '2020-05-01T00:27:59.300Z'
+    - insight-bitcore-api > bitcore > mocha > yargs-unparser > lodash:
+        patched: '2020-05-01T00:27:59.300Z'
