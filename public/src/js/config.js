@@ -9,10 +9,10 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
-      templateUrl: '/views/redirect.html'
+      templateUrl: 'views/redirect.html'
     }).
     when('/tx/send', {
-      templateUrl: '/views/transaction_sendraw.html',
+      templateUrl: 'views/transaction_sendraw.html',
       title: 'Broadcast Raw Transaction'
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
@@ -20,7 +20,7 @@ angular.module('insight').config(function($routeProvider) {
       title: 'Blackcoin Transaction '
     }).
     when('/', {
-      templateUrl: '/views/index.html',
+      templateUrl: 'views/index.html',
       title: 'Home'
     }).
     when('/blocks', {
@@ -36,15 +36,15 @@ angular.module('insight').config(function($routeProvider) {
       title: 'Blackcoin Address '
     }).
     when('/status', {
-      templateUrl: '/views/status.html',
+      templateUrl: 'views/status.html',
       title: 'Status'
     }).
     when('/messages/verify', {
-      templateUrl: '/views/messages_verify.html',
+      templateUrl: 'views/messages_verify.html',
       title: 'Verify Message'
     })
     .otherwise({
-      templateUrl: '/views/404.html',
+      templateUrl: 'views/404.html',
       title: 'Error'
     });
 });
