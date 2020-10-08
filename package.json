@@ -40,7 +40,7 @@
   ],
   "bitcoreNode": "bitcore-node",
   "dependencies": {
-    "insight-bitcore-api": "git://github.com/janko33bd/insight-api.git#blacksight-api"
+    "insight-bitcore-api": "git://github.com/michelvankessel/insight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
